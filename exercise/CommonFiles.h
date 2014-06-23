@@ -24,4 +24,19 @@ struct ListNode
     int data;
     ListNode* pNext;
 };
+
+struct BinaryTreeNode
+{
+    BinaryTreeNode()
+    :
+    data(0),
+    pLeft(NULL),
+    pRight(NULL)
+    {
+    }
+    int data;
+    BinaryTreeNode* pLeft;
+    BinaryTreeNode* pRight;
+};
+
 #endif /* defined(__exercise__CommonFiles__) */

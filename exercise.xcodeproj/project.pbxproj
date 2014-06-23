@@ -19,6 +19,7 @@
 		68EE1D0E1957B4FC004DA2E0 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D0C1957B4FC004DA2E0 /* String.cpp */; };
 		68EE1D111957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D0F1957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp */; };
 		68EE1D141957C609004DA2E0 /* ListManiulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D121957C609004DA2E0 /* ListManiulation.cpp */; };
+		68EE1D171957D70E004DA2E0 /* TreeManipulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D151957D70E004DA2E0 /* TreeManipulation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +59,8 @@
 		68EE1D101957BB99004DA2E0 /* SubstiteuBlacnWith%20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SubstiteuBlacnWith%20.h"; sourceTree = "<group>"; };
 		68EE1D121957C609004DA2E0 /* ListManiulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListManiulation.cpp; sourceTree = "<group>"; };
 		68EE1D131957C609004DA2E0 /* ListManiulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManiulation.h; sourceTree = "<group>"; };
+		68EE1D151957D70E004DA2E0 /* TreeManipulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeManipulation.cpp; sourceTree = "<group>"; };
+		68EE1D161957D70E004DA2E0 /* TreeManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeManipulation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 				68EE1D101957BB99004DA2E0 /* SubstiteuBlacnWith%20.h */,
 				68EE1D121957C609004DA2E0 /* ListManiulation.cpp */,
 				68EE1D131957C609004DA2E0 /* ListManiulation.h */,
+				68EE1D151957D70E004DA2E0 /* TreeManipulation.cpp */,
+				68EE1D161957D70E004DA2E0 /* TreeManipulation.h */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				68EE1CF919570584004DA2E0 /* QuickSort.cpp in Sources */,
 				68EE1D05195733DA004DA2E0 /* MergeSort.cpp in Sources */,
 				68EE1D0E1957B4FC004DA2E0 /* String.cpp in Sources */,
+				68EE1D171957D70E004DA2E0 /* TreeManipulation.cpp in Sources */,
 				68EE1CFF19571F79004DA2E0 /* BubbleSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
