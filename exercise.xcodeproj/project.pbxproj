@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		68EE1CEF19570572004DA2E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CEE19570572004DA2E0 /* main.cpp */; };
 		68EE1CF119570572004DA2E0 /* exercise.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68EE1CF019570572004DA2E0 /* exercise.1 */; };
+		68EE1CF919570584004DA2E0 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CF719570584004DA2E0 /* QuickSort.cpp */; };
+		68EE1CFC1957118C004DA2E0 /* insertSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CFA1957118C004DA2E0 /* insertSort.cpp */; };
+		68EE1CFF19571F79004DA2E0 /* BubbleSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CFD19571F79004DA2E0 /* BubbleSort.cpp */; };
+		68EE1D02195722CF004DA2E0 /* CountSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D00195722CF004DA2E0 /* CountSort.cpp */; };
+		68EE1D05195733DA004DA2E0 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D03195733DA004DA2E0 /* MergeSort.cpp */; };
+		68EE1D081957AFB6004DA2E0 /* FindLastKnode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D061957AFB6004DA2E0 /* FindLastKnode.cpp */; };
+		68EE1D0B1957AFC4004DA2E0 /* CommonFiles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D091957AFC4004DA2E0 /* CommonFiles.cpp */; };
+		68EE1D0E1957B4FC004DA2E0 /* String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D0C1957B4FC004DA2E0 /* String.cpp */; };
+		68EE1D111957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D0F1957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp */; };
+		68EE1D141957C609004DA2E0 /* ListManiulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D121957C609004DA2E0 /* ListManiulation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +38,26 @@
 		68EE1CEB19570572004DA2E0 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EE1CEE19570572004DA2E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		68EE1CF019570572004DA2E0 /* exercise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = exercise.1; sourceTree = "<group>"; };
+		68EE1CF719570584004DA2E0 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		68EE1CF819570584004DA2E0 /* QuickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		68EE1CFA1957118C004DA2E0 /* insertSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = insertSort.cpp; sourceTree = "<group>"; };
+		68EE1CFB1957118C004DA2E0 /* insertSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = insertSort.h; sourceTree = "<group>"; };
+		68EE1CFD19571F79004DA2E0 /* BubbleSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BubbleSort.cpp; path = ../BubbleSort.cpp; sourceTree = "<group>"; };
+		68EE1CFE19571F79004DA2E0 /* BubbleSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BubbleSort.h; path = ../BubbleSort.h; sourceTree = "<group>"; };
+		68EE1D00195722CF004DA2E0 /* CountSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountSort.cpp; sourceTree = "<group>"; };
+		68EE1D01195722CF004DA2E0 /* CountSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountSort.h; sourceTree = "<group>"; };
+		68EE1D03195733DA004DA2E0 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		68EE1D04195733DA004DA2E0 /* MergeSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
+		68EE1D061957AFB6004DA2E0 /* FindLastKnode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindLastKnode.cpp; sourceTree = "<group>"; };
+		68EE1D071957AFB6004DA2E0 /* FindLastKnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindLastKnode.h; sourceTree = "<group>"; };
+		68EE1D091957AFC4004DA2E0 /* CommonFiles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CommonFiles.cpp; sourceTree = "<group>"; };
+		68EE1D0A1957AFC4004DA2E0 /* CommonFiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFiles.h; sourceTree = "<group>"; };
+		68EE1D0C1957B4FC004DA2E0 /* String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = String.cpp; sourceTree = "<group>"; };
+		68EE1D0D1957B4FC004DA2E0 /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		68EE1D0F1957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "SubstiteuBlacnWith%20.cpp"; sourceTree = "<group>"; };
+		68EE1D101957BB99004DA2E0 /* SubstiteuBlacnWith%20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SubstiteuBlacnWith%20.h"; sourceTree = "<group>"; };
+		68EE1D121957C609004DA2E0 /* ListManiulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ListManiulation.cpp; sourceTree = "<group>"; };
+		68EE1D131957C609004DA2E0 /* ListManiulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManiulation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +90,28 @@
 		68EE1CED19570572004DA2E0 /* exercise */ = {
 			isa = PBXGroup;
 			children = (
+				68EE1CFD19571F79004DA2E0 /* BubbleSort.cpp */,
+				68EE1CFE19571F79004DA2E0 /* BubbleSort.h */,
 				68EE1CEE19570572004DA2E0 /* main.cpp */,
 				68EE1CF019570572004DA2E0 /* exercise.1 */,
+				68EE1CF719570584004DA2E0 /* QuickSort.cpp */,
+				68EE1CF819570584004DA2E0 /* QuickSort.h */,
+				68EE1CFA1957118C004DA2E0 /* insertSort.cpp */,
+				68EE1CFB1957118C004DA2E0 /* insertSort.h */,
+				68EE1D00195722CF004DA2E0 /* CountSort.cpp */,
+				68EE1D01195722CF004DA2E0 /* CountSort.h */,
+				68EE1D03195733DA004DA2E0 /* MergeSort.cpp */,
+				68EE1D04195733DA004DA2E0 /* MergeSort.h */,
+				68EE1D061957AFB6004DA2E0 /* FindLastKnode.cpp */,
+				68EE1D071957AFB6004DA2E0 /* FindLastKnode.h */,
+				68EE1D091957AFC4004DA2E0 /* CommonFiles.cpp */,
+				68EE1D0A1957AFC4004DA2E0 /* CommonFiles.h */,
+				68EE1D0C1957B4FC004DA2E0 /* String.cpp */,
+				68EE1D0D1957B4FC004DA2E0 /* String.h */,
+				68EE1D0F1957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp */,
+				68EE1D101957BB99004DA2E0 /* SubstiteuBlacnWith%20.h */,
+				68EE1D121957C609004DA2E0 /* ListManiulation.cpp */,
+				68EE1D131957C609004DA2E0 /* ListManiulation.h */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -117,7 +167,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68EE1CFC1957118C004DA2E0 /* insertSort.cpp in Sources */,
+				68EE1D02195722CF004DA2E0 /* CountSort.cpp in Sources */,
+				68EE1D141957C609004DA2E0 /* ListManiulation.cpp in Sources */,
+				68EE1D081957AFB6004DA2E0 /* FindLastKnode.cpp in Sources */,
+				68EE1D111957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp in Sources */,
 				68EE1CEF19570572004DA2E0 /* main.cpp in Sources */,
+				68EE1D0B1957AFC4004DA2E0 /* CommonFiles.cpp in Sources */,
+				68EE1CF919570584004DA2E0 /* QuickSort.cpp in Sources */,
+				68EE1D05195733DA004DA2E0 /* MergeSort.cpp in Sources */,
+				68EE1D0E1957B4FC004DA2E0 /* String.cpp in Sources */,
+				68EE1CFF19571F79004DA2E0 /* BubbleSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
