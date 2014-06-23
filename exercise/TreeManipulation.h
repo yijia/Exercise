@@ -16,4 +16,6 @@ void FrontOrderTraverseTree(BinaryTreeNode* treeNode);
 void InOrderTraverseTree(BinaryTreeNode* treeNode);
 void BackOrderTraverseTree(BinaryTreeNode* treeNode);
 
+void TraverseTreeInWidth(BinaryTreeNode* treeNode);
+
 #endif /* defined(__exercise__TreeManipulation__) */

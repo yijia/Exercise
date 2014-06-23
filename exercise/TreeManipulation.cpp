@@ -7,7 +7,7 @@
 //
 
 #include "TreeManipulation.h"
-
+#include <list>
 
 
 // self, left, right
@@ -55,4 +55,55 @@ void BackOrderTraverseTree(BinaryTreeNode* treeNode)
     // output data
     std::cout << treeNode->data;
 }
+
+// In Width
+void TraverseTreeInWidth(BinaryTreeNode* treeNode)
+{
+    if (treeNode == NULL)
+        return;
+    
+    std::list<BinaryTreeNode*> treeNodeList;
+    
+    treeNodeList.push_back(treeNode);
+    
+    while (!treeNodeList.empty())
+    {
+        BinaryTreeNode* treeNode = treeNodeList.front();
+        treeNodeList.pop_front();
+        // output treeNode's value
+        
+        if (treeNode->pLeft)
+        {
+            treeNodeList.push_back(treeNode->pLeft);
+        }
+        
+        if (treeNode->pRight)
+        {
+            treeNodeList.push_back(treeNode->pRight);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
