@@ -22,4 +22,7 @@ void BackOrderTraverseTreeWithoutCallstack(BinaryTreeNode* treeNode);
 
 void TraverseTreeInWidth(BinaryTreeNode* treeNode);
 
+
+BinaryTreeNode* RebuildBinaryTreeFromFrontOrderAndInOrder(int* frontOrderArray, int* inOrderArray,int length);
+
 #endif /* defined(__exercise__TreeManipulation__) */

@@ -205,6 +205,57 @@ void BackOrderTraverseTreeWithoutCallstack(BinaryTreeNode* treeNode)
 
 
 
+BinaryTreeNode* RebuildBinaryTreeFromFrontOrderAndInOrder(
+                                                        int* frontOrderArray,
+                                                        int* inOrderArray,
+                                                        int frontBegin ,
+                                                        int frontEnd,
+                                                        int inBegin,
+                                                        int inEnd)
+{
+    if (frontOrderArray == NULL || inOrderArray == NULL || frontBegin < 0 || inBegin < 0 || frontEnd < frontBegin || inEnd < inBegin)
+    {
+        return NULL;
+    }
+    
+    int headData = frontOrderArray[frontBegin];
+    BinaryTreeNode* head = new BinaryTreeNode;
+    head->data = headData;
+
+    int middlePos = inBegin;
+    for (; middlePos<=inEnd;middlePos++)
+    {
+        if (inOrderArray[middlePos] == headData)
+        {
+            break;
+        }
+    }
+    
+    head->pLeft = RebuildBinaryTreeFromFrontOrderAndInOrder(
+                                                            frontOrderArray,
+                                                            inOrderArray,
+                                                            frontBegin+1,
+                                                            frontBegin + middlePos - inBegin,
+                                                            inBegin,
+                                                            middlePos -1);
+    
+    head->pLeft = RebuildBinaryTreeFromFrontOrderAndInOrder(
+                                                            frontOrderArray,
+                                                            inOrderArray,
+                                                            frontBegin + middlePos - inBegin+1,
+                                                            frontBegin + middlePos - inBegin,
+                                                            frontEnd,
+                                                            inEnd);
+
+    
+    return head;
+}
+
+BinaryTreeNode* RebuildBinaryTreeFromFrontOrderAndInOrder(int* frontOrderArray, int* inOrderArray,int length)
+{
+    return RebuildBinaryTreeFromFrontOrderAndInOrder(frontOrderArray, inOrderArray, 0 ,length-1, 0, length -1);
+}
+
 
 
 
