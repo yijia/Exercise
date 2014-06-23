@@ -16,4 +16,12 @@ void AddNode(ListNode** pHead, int data);
 
 void RemoveNode(ListNode** pHead, int data);
 
+void ReverseOutputListByReverTheList(ListNode* pHead);
+
+void ReverseOutputListByUsingList(ListNode* pHead);
+
+void ReverseOutputListByUsingCallstack(ListNode* pHead);
+
+void ReverseList(ListNode** pHead);
+
 #endif /* defined(__exercise__ListManiulation__) */

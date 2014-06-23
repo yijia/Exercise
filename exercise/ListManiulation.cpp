@@ -7,7 +7,7 @@
 //
 
 #include "ListManiulation.h"
-
+#include <vector>
 
 void AddNode(ListNode** pHead, int data)
 {
@@ -72,4 +72,81 @@ void RemoveNode(ListNode** pHead, int data)
         delete removedNode;
     }
 }
+
+void ReverseList(ListNode** pHead)
+{
+    if (pHead == NULL || *pHead == NULL)
+    {
+        return;
+    }
+    ListNode* pCur, *pNext, *pNextNext;
+    pCur = *pHead;
+    pNext = (*pHead)->pNext;
+    pCur->pNext = NULL;
+    
+    while (pNext)
+    {
+        pNextNext = pNext->pNext;
+        pNext->pNext = pCur;
+        pCur = pNext;
+        pNext = pNextNext;
+    }
+    
+    *pHead = pCur;
+}
+
+
+void ReverseOutputListByReverTheList(ListNode* pHead)
+{
+    if (pHead == NULL)
+    {
+        return ;
+    }
+    
+    
+    ReverseList(&pHead);
+    
+    // output the list
+}
+
+void ReverseOutputListByUsingList(ListNode* pHead)
+{
+    ListNode* node = pHead;
+    
+    std::vector<int> datas;
+    
+    while(node)
+    {
+        datas.push_back(node->data);
+        node = node->pNext;
+    }
+    
+    // output the list by using pop_back();
+    datas.pop_back();
+}
+
+void ReverseOutputListByUsingCallstack(ListNode* pHead)
+{
+    if (pHead == NULL)
+    {
+        return;
+    }
+    ReverseOutputListByUsingCallstack(pHead->pNext);
+    
+    //output pHead->pData;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
