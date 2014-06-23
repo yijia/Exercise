@@ -14,4 +14,6 @@
 
 void AddNode(ListNode** pHead, int data);
 
+void RemoveNode(ListNode** pHead, int data);
+
 #endif /* defined(__exercise__ListManiulation__) */

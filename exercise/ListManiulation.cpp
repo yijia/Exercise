@@ -36,3 +36,40 @@ void AddNode(ListNode** pHead, int data)
     }
 }
 
+
+void RemoveNode(ListNode** pHead, int data)
+{
+    if (pHead == NULL || *pHead == NULL)
+    {
+        return;
+    }
+    
+    ListNode* removedNode = NULL;
+    if ((*pHead)->data == data)
+    {
+        removedNode = *pHead;
+        *pHead = (*pHead)->pNext;
+    }
+    else
+    {
+        ListNode* pNode = *pHead;
+        while (pNode->pNext)
+        {
+            if (pNode->pNext->data == data)
+            {
+                removedNode = pNode->pNext;
+                pNode->pNext = pNode->pNext->pNext;
+            }
+            else
+            {
+                pNode = pNode->pNext;
+            }
+        }
+    }
+    
+    if (removedNode)
+    {
+        delete removedNode;
+    }
+}
+
