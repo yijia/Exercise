@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682ECF8F1959D0A700190AF5 /* PrintFrom1ToN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 682ECF8D1959D0A700190AF5 /* PrintFrom1ToN.cpp */; };
 		68EE1CEF19570572004DA2E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CEE19570572004DA2E0 /* main.cpp */; };
 		68EE1CF119570572004DA2E0 /* exercise.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68EE1CF019570572004DA2E0 /* exercise.1 */; };
 		68EE1CF919570584004DA2E0 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CF719570584004DA2E0 /* QuickSort.cpp */; };
@@ -39,6 +40,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		682ECF8D1959D0A700190AF5 /* PrintFrom1ToN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintFrom1ToN.cpp; sourceTree = "<group>"; };
+		682ECF8E1959D0A700190AF5 /* PrintFrom1ToN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintFrom1ToN.h; sourceTree = "<group>"; };
 		68EE1CEB19570572004DA2E0 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EE1CEE19570572004DA2E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		68EE1CF019570572004DA2E0 /* exercise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = exercise.1; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				68EE1D1C19581A1B004DA2E0 /* FindAlgorithem.h */,
 				68EE1D1E19583279004DA2E0 /* Fibonacci.cpp */,
 				68EE1D1F19583279004DA2E0 /* Fibonacci.h */,
+				682ECF8D1959D0A700190AF5 /* PrintFrom1ToN.cpp */,
+				682ECF8E1959D0A700190AF5 /* PrintFrom1ToN.h */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 				68EE1D141957C609004DA2E0 /* ListManiulation.cpp in Sources */,
 				68EE1D081957AFB6004DA2E0 /* FindLastKnode.cpp in Sources */,
 				68EE1D111957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp in Sources */,
+				682ECF8F1959D0A700190AF5 /* PrintFrom1ToN.cpp in Sources */,
 				68EE1CEF19570572004DA2E0 /* main.cpp in Sources */,
 				68EE1D2019583279004DA2E0 /* Fibonacci.cpp in Sources */,
 				68EE1D0B1957AFC4004DA2E0 /* CommonFiles.cpp in Sources */,
@@ -309,6 +315,7 @@
 				68EE1CF619570572004DA2E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,6 +15,7 @@
 #include "SubstiteuBlacnWith%20.h"
 #include "FindAlgorithem.h"
 #include "Fibonacci.h"
+#include "PrintFrom1ToN.h"
 
 int main(int argc, const char * argv[])
 {
@@ -35,6 +36,8 @@ int main(int argc, const char * argv[])
     
     
     int steps = FrogStep(5);
+    
+    PrintFrom1ToNWithRecursion(3);
     return 0;
 }
 
