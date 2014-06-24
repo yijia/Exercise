@@ -20,6 +20,9 @@
 		68EE1D111957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D0F1957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp */; };
 		68EE1D141957C609004DA2E0 /* ListManiulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D121957C609004DA2E0 /* ListManiulation.cpp */; };
 		68EE1D171957D70E004DA2E0 /* TreeManipulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D151957D70E004DA2E0 /* TreeManipulation.cpp */; };
+		68EE1D1A1958125C004DA2E0 /* StackAndQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D181958125C004DA2E0 /* StackAndQueue.cpp */; };
+		68EE1D1D19581A1B004DA2E0 /* FindAlgorithem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D1B19581A1B004DA2E0 /* FindAlgorithem.cpp */; };
+		68EE1D2019583279004DA2E0 /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1D1E19583279004DA2E0 /* Fibonacci.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +64,12 @@
 		68EE1D131957C609004DA2E0 /* ListManiulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListManiulation.h; sourceTree = "<group>"; };
 		68EE1D151957D70E004DA2E0 /* TreeManipulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TreeManipulation.cpp; sourceTree = "<group>"; };
 		68EE1D161957D70E004DA2E0 /* TreeManipulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreeManipulation.h; sourceTree = "<group>"; };
+		68EE1D181958125C004DA2E0 /* StackAndQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StackAndQueue.cpp; sourceTree = "<group>"; };
+		68EE1D191958125C004DA2E0 /* StackAndQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StackAndQueue.h; sourceTree = "<group>"; };
+		68EE1D1B19581A1B004DA2E0 /* FindAlgorithem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindAlgorithem.cpp; sourceTree = "<group>"; };
+		68EE1D1C19581A1B004DA2E0 /* FindAlgorithem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindAlgorithem.h; sourceTree = "<group>"; };
+		68EE1D1E19583279004DA2E0 /* Fibonacci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fibonacci.cpp; sourceTree = "<group>"; };
+		68EE1D1F19583279004DA2E0 /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +126,12 @@
 				68EE1D131957C609004DA2E0 /* ListManiulation.h */,
 				68EE1D151957D70E004DA2E0 /* TreeManipulation.cpp */,
 				68EE1D161957D70E004DA2E0 /* TreeManipulation.h */,
+				68EE1D181958125C004DA2E0 /* StackAndQueue.cpp */,
+				68EE1D191958125C004DA2E0 /* StackAndQueue.h */,
+				68EE1D1B19581A1B004DA2E0 /* FindAlgorithem.cpp */,
+				68EE1D1C19581A1B004DA2E0 /* FindAlgorithem.h */,
+				68EE1D1E19583279004DA2E0 /* Fibonacci.cpp */,
+				68EE1D1F19583279004DA2E0 /* Fibonacci.h */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -178,12 +193,15 @@
 				68EE1D081957AFB6004DA2E0 /* FindLastKnode.cpp in Sources */,
 				68EE1D111957BB99004DA2E0 /* SubstiteuBlacnWith%20.cpp in Sources */,
 				68EE1CEF19570572004DA2E0 /* main.cpp in Sources */,
+				68EE1D2019583279004DA2E0 /* Fibonacci.cpp in Sources */,
 				68EE1D0B1957AFC4004DA2E0 /* CommonFiles.cpp in Sources */,
 				68EE1CF919570584004DA2E0 /* QuickSort.cpp in Sources */,
+				68EE1D1D19581A1B004DA2E0 /* FindAlgorithem.cpp in Sources */,
 				68EE1D05195733DA004DA2E0 /* MergeSort.cpp in Sources */,
 				68EE1D0E1957B4FC004DA2E0 /* String.cpp in Sources */,
 				68EE1D171957D70E004DA2E0 /* TreeManipulation.cpp in Sources */,
 				68EE1CFF19571F79004DA2E0 /* BubbleSort.cpp in Sources */,
+				68EE1D1A1958125C004DA2E0 /* StackAndQueue.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

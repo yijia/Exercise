@@ -21,19 +21,13 @@ void CountSort(int* array, int length)
         sPool[array[i]] += 1;
     }
     
-    for (int i = 1; i<maxSize; i++)
+    int index = 0;
+    for (int i = 0;i<maxSize;i++)
     {
-        sPool[i] += sPool[i-1];
+        for (int j = 0;j<sPool[i];j++)
+        {
+            array[index] = i;
+            index++;
+        }
     }
-    
-    for(int i =0;i< length;i++)
-    {
-        sSort[--sPool[array[i]]] = array[i];
-    }
-    
-    for(int i =0;i< length;i++)
-    {
-        array[i] = sSort[i];
-    }
-    
 }
