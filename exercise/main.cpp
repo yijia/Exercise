@@ -37,7 +37,9 @@ int main(int argc, const char * argv[])
     
     int steps = FrogStep(5);
     
-    PrintFrom1ToNWithRecursion(3);
+    //PrintFrom1ToNWithRecursion(3);
+    
+    PrintFrom1ToNOneCharForTwoNumber(6);
     return 0;
 }
 

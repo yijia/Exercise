@@ -12,8 +12,12 @@
 #include <iostream>
 
 
+void PrintFrom1ToNOneCharForTwoNumber(int n);
+
 void PrintFrom1ToN(int n);
 
 void PrintFrom1ToNWithRecursion(int n);
+
+void AddTwoNumber(int a, int b);
 
 #endif /* defined(__exercise__PrintFrom1ToN__) */
