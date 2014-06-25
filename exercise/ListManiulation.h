@@ -24,4 +24,10 @@ void ReverseOutputListByUsingCallstack(ListNode* pHead);
 
 void ReverseList(ListNode** pHead);
 
+void ReverseListByUsingRecursion(ListNode** pHead);
+
+ListNode* FindMiddleNodeOfList(ListNode* pHead);
+
+ListNode* MergeTwoSortedList(ListNode* pFirst, ListNode* pSecond);
+
 #endif /* defined(__exercise__ListManiulation__) */

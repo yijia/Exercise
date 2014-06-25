@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		682ECF8F1959D0A700190AF5 /* PrintFrom1ToN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 682ECF8D1959D0A700190AF5 /* PrintFrom1ToN.cpp */; };
+		682EE2A4195AAFD500190AF5 /* DividArrayIntoEvenAndOddPart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 682EE2A2195AAFD500190AF5 /* DividArrayIntoEvenAndOddPart.cpp */; };
 		68EE1CEF19570572004DA2E0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CEE19570572004DA2E0 /* main.cpp */; };
 		68EE1CF119570572004DA2E0 /* exercise.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 68EE1CF019570572004DA2E0 /* exercise.1 */; };
 		68EE1CF919570584004DA2E0 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68EE1CF719570584004DA2E0 /* QuickSort.cpp */; };
@@ -42,6 +43,8 @@
 /* Begin PBXFileReference section */
 		682ECF8D1959D0A700190AF5 /* PrintFrom1ToN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintFrom1ToN.cpp; sourceTree = "<group>"; };
 		682ECF8E1959D0A700190AF5 /* PrintFrom1ToN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintFrom1ToN.h; sourceTree = "<group>"; };
+		682EE2A2195AAFD500190AF5 /* DividArrayIntoEvenAndOddPart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DividArrayIntoEvenAndOddPart.cpp; sourceTree = "<group>"; };
+		682EE2A3195AAFD500190AF5 /* DividArrayIntoEvenAndOddPart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DividArrayIntoEvenAndOddPart.h; sourceTree = "<group>"; };
 		68EE1CEB19570572004DA2E0 /* exercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = exercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		68EE1CEE19570572004DA2E0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		68EE1CF019570572004DA2E0 /* exercise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = exercise.1; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 				68EE1D1F19583279004DA2E0 /* Fibonacci.h */,
 				682ECF8D1959D0A700190AF5 /* PrintFrom1ToN.cpp */,
 				682ECF8E1959D0A700190AF5 /* PrintFrom1ToN.h */,
+				682EE2A2195AAFD500190AF5 /* DividArrayIntoEvenAndOddPart.cpp */,
+				682EE2A3195AAFD500190AF5 /* DividArrayIntoEvenAndOddPart.h */,
 			);
 			path = exercise;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 				68EE1D05195733DA004DA2E0 /* MergeSort.cpp in Sources */,
 				68EE1D0E1957B4FC004DA2E0 /* String.cpp in Sources */,
 				68EE1D171957D70E004DA2E0 /* TreeManipulation.cpp in Sources */,
+				682EE2A4195AAFD500190AF5 /* DividArrayIntoEvenAndOddPart.cpp in Sources */,
 				68EE1CFF19571F79004DA2E0 /* BubbleSort.cpp in Sources */,
 				68EE1D1A1958125C004DA2E0 /* StackAndQueue.cpp in Sources */,
 			);

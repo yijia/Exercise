@@ -137,6 +137,98 @@ void ReverseOutputListByUsingCallstack(ListNode* pHead)
     
 }
 
+void ReverseList(ListNode* previousNode, ListNode**pHead, ListNode* curNode)
+{
+    if (curNode == NULL)
+    {
+        *pHead = previousNode;
+        return;
+    }
+    ReverseList(curNode, pHead, curNode->pNext);
+    curNode->pNext = previousNode;
+}
+
+
+ListNode* MergeTwoSortedList(ListNode* pFirst, ListNode* pSecond)
+{
+    if (pFirst == NULL)
+    {
+        return pSecond;
+    }
+    else if (pSecond == NULL)
+    {
+        return pFirst;
+    }
+    
+    ListNode* firtNode = pFirst;
+    ListNode* secondNode = pSecond;
+    ListNode* pHead = pFirst->data > pSecond->data ? pFirst : pSecond;
+    (pHead == pFirst) ? (pFirst =pFirst->pNext) : (pSecond = pSecond->pNext);
+    ListNode* pNode = pHead;
+    
+    
+    while (firtNode && secondNode)
+    {
+        if (firtNode->data > secondNode->data)
+        {
+            pNode->pNext = firtNode;
+            firtNode = firtNode->pNext;
+        }
+        else
+        {
+            pNode->pNext = secondNode;
+            secondNode = secondNode->pNext;
+        }
+        
+        pNode = pNode->pNext;
+    }
+    
+    if(pFirst)
+    {
+        pHead->pNext = pFirst;
+    }
+    else if (pSecond)
+    {
+        pHead->pNext = pSecond;
+    }
+    
+    
+    return pHead;
+}
+
+
+void ReverseListByUsingRecursion(ListNode** pHead)
+{
+    if (pHead == NULL || *pHead == NULL)
+    {
+        return;
+    }
+    
+    ReverseList(NULL, pHead, *pHead);
+}
+
+
+ListNode* FindMiddleNodeOfList(ListNode* pHead)
+{
+    if (pHead == NULL || pHead->pNext == NULL)
+    {
+        return pHead;
+    }
+    
+    ListNode* doubleStepNode = pHead;
+    ListNode* singleStepNode = pHead;
+    
+    while (doubleStepNode && doubleStepNode->pNext && doubleStepNode->pNext->pNext)
+    {
+        doubleStepNode = doubleStepNode->pNext->pNext;
+        singleStepNode = singleStepNode->pNext;
+    }
+    
+    return singleStepNode;
+}
+
+
+
 
 
 
